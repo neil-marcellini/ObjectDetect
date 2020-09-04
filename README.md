@@ -3,7 +3,7 @@ Object Detect is an app that uses CoreML and the Resnet50 model to identify obje
 and to use the CoreML model. I then added labels to show the observation and its associated confidence.
 
 ## Getting Started
-You will need to download the Resnet50.mlmodel file and drag it into Xcode, as it was too large to commit to git. Make sure to run it on a real device to see the camera.
+You will need to download the [Resnet50.mlmodel](https://ml-assets.apple.com/coreml/models/Image/ImageClassification/Resnet50/Resnet50.mlmodel) file and drag it into Xcode, as it was too large to commit to git. Make sure to run it on a real device to see the camera.
 
 ## Examples
 <table>
