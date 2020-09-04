@@ -15,6 +15,8 @@
 		31A6B1B22500A12500C4CCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A6B1B02500A12500C4CCA3 /* LaunchScreen.storyboard */; };
 		31A6B1BD2500A12500C4CCA3 /* ObjectDetectDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1BC2500A12500C4CCA3 /* ObjectDetectDemoTests.swift */; };
 		31A6B1C82500A12500C4CCA3 /* ObjectDetectDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1C72500A12500C4CCA3 /* ObjectDetectDemoUITests.swift */; };
+		31A6B1D62500C97D00C4CCA3 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1D52500C97D00C4CCA3 /* SqueezeNet.mlmodel */; };
+		31A6B1D82500CF1B00C4CCA3 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31A6B1D72500CF1B00C4CCA3 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		31A6B1C32500A12500C4CCA3 /* ObjectDetectDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectDetectDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A6B1C72500A12500C4CCA3 /* ObjectDetectDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectDemoUITests.swift; sourceTree = "<group>"; };
 		31A6B1C92500A12500C4CCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A6B1D52500C97D00C4CCA3 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		31A6B1D72500CF1B00C4CCA3 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				31A6B1AB2500A12300C4CCA3 /* Main.storyboard */,
 				31A6B1AE2500A12500C4CCA3 /* Assets.xcassets */,
 				31A6B1B02500A12500C4CCA3 /* LaunchScreen.storyboard */,
+				31A6B1D72500CF1B00C4CCA3 /* Resnet50.mlmodel */,
+				31A6B1D52500C97D00C4CCA3 /* SqueezeNet.mlmodel */,
 				31A6B1B32500A12500C4CCA3 /* Info.plist */,
 			);
 			path = ObjectDetectDemo;
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A6B1D82500CF1B00C4CCA3 /* Resnet50.mlmodel in Sources */,
 				31A6B1AA2500A12300C4CCA3 /* ViewController.swift in Sources */,
 				31A6B1A62500A12300C4CCA3 /* AppDelegate.swift in Sources */,
 				31A6B1A82500A12300C4CCA3 /* SceneDelegate.swift in Sources */,
+				31A6B1D62500C97D00C4CCA3 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
